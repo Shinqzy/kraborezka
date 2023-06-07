@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="source/Icon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="source/Icon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="source/Icon/favicon-16x16.png" />
+    <link rel="manifest" href="source/Icon/site.webmanifest" />
+    <title>Kraborezka</title>
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;600;700&family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;600;700&family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <img id="img_Crab" src="source/Crab.png" alt="Crab" />
+      <span id="Kraborezka">Kraborezka</span>
+      <div class="Achievements">
+        <a id="Achievements" href="#h21">Achievements</a>
+      </div>
+      <div class="BIO"><a id="BIO" href="#h22">BIO</a></div>
+      <div class="Connection"><a id="open_pop_up" href="#">Connection</a></div>
+      <div class="pop_up" id="pop_up">
+        <div class="pop_up_body" id="pop_up_body">
+          <h2>We'll call you back</h2>
+          <form action="php/tg.php" method="post">
+            <input
+              type="email"
+              name="email"
+              placeholder="Email*"
+              style="margin: 50px auto auto 200px"
+            />
+            <input
+              type="tel"
+              name="tel"
+              placeholder="Phone number"
+              style="margin: 20px auto auto 300px"
+            />
+            <input
+              type="text"
+              name="game"
+              placeholder="Game"
+              style="margin: 20px auto auto 400px"
+            />
+            <div class="pop_up_close" id="pop_up_close">
+              <button
+                type="submit"
+                style="background-color: rgba(0, 0, 0, 0); border: none"
+              >
+                <img type="submit" src="source/Close.png" alt="Close" />
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h2 id="h21">Achievements</h2>
+      <h3 id="h31">DOTA 2</h3>
+      <span id="MMR">6520 MMR</span>
+      <span id="Titan">Titan top 3911 in CIS</span>
+      <img id="Ghoul" src="source/Ghoul.png" alt="Ghoul" />
+
+      <h3 id="h32">Valorant</h3>
+      <span id="Diamond">Diamond 2</span>
+      <span id="Hours">1300 Hours</span>
+      <img id="Fade" src="source/Fade.png" alt="Fade" />
+
+      <h3 id="h33">CS:GO</h3>
+      <span id="Master">Master Guardian Elite</span>
+      <span id="ELO">2500 ELO</span>
+      <img id="CS" src="source/CS.png" alt="CSGO" />
+
+      <h2 id="h22">BIO</h2>
+      <img id="img_BIO" src="source/BIO.png" alt="BIO" />
+      <p id="p_Bio1">
+        We are a <span style="color: #5178fb">fast-growing</span> company that
+        specializes in raising the rating of various games
+      </p>
+      <p id="p_Bio2">
+        For now we can help you with a small number of games, but we are rapidly
+        expanding our <span style="color: #5178fb">arsenal</span>
+      </p>
+      <p id="p_Bio3">
+        <span style="color: #5178fb">Choose</span> the game you need in the
+        message and we will advise you ^_~
+      </p>
+    </main>
+    <footer>
+      <img id="img_Crab2" src="source/Crab.png" alt="Crab" />
+      <span id="Kraborezka2">Kraborezka</span>
+      <span id="Copy">© 2023 All Rights Reserved</span>
+      <div class="Arrow_Up">
+        <a href="#header"><img src="source/Up.png" alt="Up" /></a>
+      </div>
+    </footer>
+    <script src="js/popup.js"></script>
+  </body>
+</html>
